@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="styles.css"></link>
+    <title>Unique hmtl Tags</title>
+</head>
+<body>
+    <nav><h1>so many html tags</h1><a href="#sectionA">Inline</a><a href="#sectionB">lists</a><a href="#sectionC">media</a><a href="#sectionD">Forms</a></nav>
+    <div id="header-container"><header><h1>html tags in context: h1 in a header!</h1></header></div>
+    <div class="section-container">
+    <section id="sectionA">
+        <h2>Inline Stuff: H2 in a section: Below is an article</h2>
+        <article>
+            
+            <h3>A bunch of inline tag techniques:</h3>
+            <p style="line-height: 2;">
+                References: you can<cite> Cite things with cite</cite><br>
+                This here is an abbr, and you can hover it to find out.---><abbr title="ABBReviation!">ABBR</abbr><br>
+            <b>This is b element stuff </b>but this--> <strong> is very, very strong </strong>not super sure of the difference...<br>
+            code samples include: <code>bdi and bdo tags bleep bloop </code> but I haven't really tested what these do.<br>
+            You can define something: <dfn>with a dfn or definition</dfn><br>
+            You can <em>emphasize</em> or <i>italicize</i> various things.<br>
+            <mark>There</mark> are a <sub>bunch more</sub> of <small>these</small>, but I am <sup>moving on</sup> for <span style="color: rgb(19, 156, 19);">now.</span><br>
+            This will all happen this specified time: <time datetime="PT4H20M">4:20 PM</time>
+            
+        </p>
+            <pre> or maybe preformatted</pre>
+            <p><del>stuff that was deleted</del> and <ins>stuff that is inserted</ins></p>
+            <aside>this is only an aside...</aside>
+            
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Architecto distinctio ab molestiae exercitationem quia 
+                adipisci et minima modi, ullam blanditiis ad ex hic 
+                temporibus voluptatum voluptatibus impedit qui dolorem earum.
+            </p>
+            <style> footer{ color:rgb(121, 73, 73); padding: 10px; margin: 15px; border-radius: 5px;}</style>
+            <footer>
+                <blockquote style="color:blue;">Apparently I am familiar with a Blockquote in a footer and blue</blockquote>
+            </footer>
+        </article>
+    </section>
+    <section id="sectionB">
+        <h2>Lists of Lists</h2>
+        
+        <article>
+            <h3>This here is a descprition list with description terms and description definitions:</h3>
+            <dl>
+                    <h4>Description List:</h3>
+                    <dt>
+                        Description Term A:
+                        <dd>
+                            This is the description/definition.
+                        </dd>
+                    </dt>
+                    <dt>
+                        Description Term B:
+                        <dd>
+                            This is the description/definition.
+                        </dd>
+                    </dt>
+                    <dt>
+                        Description Term C:
+                        <dd>
+                            This is the description/definition.
+                        </dd>
+                    </dt>
+                </dl>            
+                <p>I am not certain why it decided not to let the dl go inside of a paragraph... but I can style them the same.</p>
+                <div id="list-cont">
+                <ul><h4>Unordered List:</h4>
+                    <li>list item</li>
+                    <li>list item</li>
+                    <li>list item</li>                    
+                </ul>
+                <ol><h4>Ordered List:</h4>
+                    <li>list item 1</li>
+                    <li>list item 2</li>
+                    <li>list item 3 </li>                    
+                </ol>
+                </div>
+            <h3>Below is a Figure Container</h3>
+            <div id="fig-container">
+                
+                <figure>maybe a figure is a chart or something?</figure>
+            <figcaption>And this would be the figcaption, describing whatever that was...</figcaption>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Architecto distinctio ab molestiae exercitationem quia 
+                adipisci et minima modi, ullam blanditiis ad ex hic 
+                temporibus voluptatum voluptatibus impedit qui dolorem earum.
+            </p>
+            <hr> <!-- this is just a thematic break in p-level elements -->
+            <p>
+                differently themed --Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Architecto distinctio ab molestiae exercitationem quia 
+                adipisci et minima modi, ullam blanditiis ad ex hic 
+                temporibus voluptatum voluptatibus impedit qui dolorem earum.
+            </p>
+            <footer>
+                <blockquote>Apparently I am familiar with a Blockquote in a footer</blockquote>
+            </footer>
+        </article>
+    </section>
+    <section id="sectionC">
+        <h2>Media tags:</h2>
+        <article>
+            <!-- <br> -->
+            <div>
+                
+                <h3>Audio with controls :) <a href="https://archive.org/details/Pherkad">Pherkad</a> "Young" </h3>
+                <audio controls style="margin: 10px;" src="01 Young.wav"><track label="Pherkad-Young"></audio><br>
+                <img height="350rem" src="shiny-balloon.jpg" alt="Some of the band Pherkad's reflections from a shiny balloon"><br>
+                <caption>Here are some of the Pherkad boys in a shiny balloon reflection.</caption>
+                
+            </div>
+                
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Archit ecto distinctio ab molestiae exercitationem quia 
+                adipisci et minima modi, ullam blanditiis ad ex hic 
+                temporibus voluptatum voluptatibus impedit qui dolorem earum.
+            </p>
+            <hr>
+            <p><video controls width="300rem"><source src="VIDEO0001.mp4"  type="video/mp4"></video><br>
+                <caption>Here is a video of Saddle Tramp at Red Gorrilla Studios</caption><br>
+
+            <iframe height="200rem" src="https://example.org"></iframe><br>
+            <caption>
+                Apparently, ou must have permission to embed a website here with the iframe tag.
+            </caption>
+            
+            </p>
+            <map >
+                <area >an area? inside of a map? not really too sure about this...multimedia of some nature</area>
+            </map><br>
+            <footer>
+                <blockquote>Yeah, totally, I am familiar with a Blockquote in a footer</blockquote>
+            </footer>
+        </article>
+    </section>
+    <section id="sectionD">
+        <h2>Forms, A Table and Inputs Galore!</h2>
+        <article>
+            
+            <h3>Table with colgroup:</h3>
+    <table>
+        <colgroup span="4"></colgroup>
+        <tr>
+            <th>These are/Cntry</th>
+            <th>table heads/Capit.</th>
+            <th>in a/Pop</th>
+            <th>table row./Lang.</th>
+        </tr>
+        <tr>
+            <td>These are </td>
+            <td>table dates</td>
+            <td>in a </td>
+            <td>table row.</td>
+        </tr>
+        <tr>
+            <td>Sweden</td>
+            <td>Stockholm</td>
+            <td>9 million</td>
+            <td>Swedish</td>
+        </tr>
+        <tfoot>
+            <td>Add it </td>
+            <td>all up</td>
+            <td>in a </td>
+            <td>table footer</td>
+        </tfoot>
+    </table>
+
+            <hr>
+            <p>
+                differently themed --Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Architecto distinctio ab molestiae exercitationem quia 
+                adipisci et minima modi, ullam blanditiis ad ex hic 
+                temporibus voluptatum voluptatibus impedit qui dolorem earum.
+            </p>
+        </article>    
+        <article>
+            
+            <h3>Forms...But First: </h3><a href="./did-you-mean.html"><button>A BUTTON!</button></a><br>
+            <form>
+                
+                <label for="inputlist-datalist">Make a Datalist Input</label>
+                <input list="datalist" id="inputlist-datalist" name="inputlist-datalist" placeholder="it stores your answers">
+                 <datalist id="datalist">
+                    <option value="datalist-optionA">
+                    <option value="datalist-optionB">
+                    <option value="datalist-optionC">
+                </datalist><br>
+                <fieldset>
+                    <legend>This is the legend of a fieldset</legend>
+                    <input type="radio" id="radio" name="radio-button">
+                    <label for="radio">Radio</label><br/>
+
+                    <input type="radio" id="buttons" name="radio-button">
+                    <label for="buttons">Buttons</label><br/>
+
+                    <input type="radio" id="are-cool" name="radio-button">
+                    <label for="are-cool">Are Cool</label>
+                    
+                </fieldset><br>
+                <label for="meter">This is a meter: at 85/100</label>
+                <meter id="meter" min="0" max="100" low="25" high="75" optimum="100" value="85">85/100</meter><br>
+                <label for="select">This is a Select tag</label>
+                <select id="select">
+                    <optgroup>
+                        <option value="" >Please Select an Option</option>
+                        <option value="Select" >Select</option>
+                        <option value="an option">an option</option>
+                        <option value="from the Optgroup">from the Optgroup</option>
+                    </optgroup>
+                </select><br>
+                <label for="progress">Progress Tag: </label>
+                <progress id="progress" max="100" value="75"> 75% </progress><br><hr>
+                <label for="textarea">And this is a textarea:</label><br>
+                <textarea id=textarea" placeholder="this is a placeholder for my textarea"></textarea><br>
+            </form>    
+            <h3>These are input types with outputs:</h3>
+            <!-- this input/output stuff below is neat -->
+            <form oninput="rangeresult.value=range.value, numberoutput.value=number.value">
+                
+                <label for="range">Range type input:</label>
+                <input type="range" id="range" value="50"></input>
+                output:<output name="rangeresult" for="range"></output><br>
+                <input type="number" id="number" placeholder="pick a number!"></input>
+                output:<output name="numberoutput" for="number"></output>
+            </form><hr>
+            <h3>So many input types!</h3>
+            <form>
+                <div id="loginstuff"> 
+                    <h4>Login stuff: </h4>  
+                    <label for="username">Username (text, actually):</label>
+                    <input type="text"  autocomplete="" id="username" required><br>
+                    <label for="email" >email:</label>
+                    <input type="email" autocomplete="" id="email" required><br>
+                    <label for="telephone">telephone:</label>
+                    <input type="tel" autocomplete="" id="telephone"><br>
+                    <label for="url">url:</label>
+                    <input type="url" autocomplete="" id="url"><br>
+                    <label for="password" >Password:</label>
+                    <input type="password" id="password" autocomplete="" minlength="8" placeholder="lolz: browser tries to save it"><br>
+                </div>
+                <label for="checkbox1">You can check multiple checkboxes</label>
+                <input type="checkbox" id="checkbox1">
+                <label for="checkbox2">Or just one</label>
+                <input type="checkbox" id="checkbox2"><br>
+                <label for="colorpicker">Pick a color!</label>
+                <input type="color" id="colorpicker">
+                <div id="timestuff">
+                    <h4>Time Inputs:</h4>
+                    <label for="time">Time:</label>
+                    <input type="time" id="time"><br>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date"><br>
+                    <label for="week">week:</label>
+                    <input type="week" id="week"><br>
+                    <label for="month">month:</label>
+                    <input type="month" id="month"><br>
+                    <label for="dt-local">Datetime-local:</label>
+                    <input type="datetime-local" id="dt-local">
+                </div><br>
+                <input type="search" placeholder="search"><br>
+                <input type="file"><br>
+                <label for="image">Image input button thing:</label><br>
+                <input type="image" id="image" src="shiny-balloon.jpg" height="100px" alt="image submit"><br>
+
+                <input type="reset" value="Reset (not recommended)">
+                <input type="submit" value="Submit ">
+            </form>
+        </article>    
+    </section>
+        <section>
+            <article>
+                <h3>Thanks for checking it out! Hope you learned as much as I did!</h3>
+            </article>
+        </section>
+    </div>
+    <footer id="body-footer">created by Chris Patchett, 2021</footer>
+</body>
+</html>
